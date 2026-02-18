@@ -39,7 +39,7 @@
         compatible = "zmk,combos";
 
         esc {
-            bindings = <&kp esc>;
+            bindings = <&kp escape>;
             key-positions = <0 1>;
         };
 
