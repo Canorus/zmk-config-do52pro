@@ -91,8 +91,8 @@
         MouseTP_layer {
             bindings = <
 &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR        &trans          &trans          &trans            &mms MS_TP_SENSITIVITY_INCR  &mms MS_TP_PTS_THRESHOLD_INCR  &mms MS_TP_VALUE6_INCR
-&trans  &trans  &trans  &trans  &trans  &trans                                          &mkp MB4        &mkp MB5        &trans            &mms MS_TP_SENSITIVITY_DECR  &mms MS_TP_PTS_THRESHOLD_DECR  &mms MS_TP_VALUE6_DECR
-&kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans  &trans  &trans  &trans              &mkp MB3        &trans          &msc MOVE_Y(-10)  &msc MOVE_X(10)    &trans   &trans  
+&trans  &trans  &trans  &trans  &trans  &trans                                          &trans          &trans          &trans            &mms MS_TP_SENSITIVITY_DECR  &mms MS_TP_PTS_THRESHOLD_DECR  &mms MS_TP_VALUE6_DECR
+&kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans  &trans  &trans  &trans              &mkp MB4        &mkp MB5        &msc MOVE_Y(-10)  &msc MOVE_X(10)    &trans   &trans  
 &trans  &trans  &kp C_PREV  &kp C_NEXT  &kp C_PAUSE  &trans                             &trans          &trans          &msc MOVE_Y(10)   &msc (MOVE_X(-10)) &trans   &trans
 &trans  &trans  &trans  &trans                                                          &mkp LCLK       &mkp RCLK                                            &trans   &trans
             >;
