@@ -5,7 +5,7 @@
 #define LOWER 1
 #define UPPER 2
 #define FUNC 3
-#define CONF 4
+#define CONFIG 4
 #define MOUSE_KEYS 5
 #define MOUSE_TP 6
 #define MOUSE_TP_KEYS 7
