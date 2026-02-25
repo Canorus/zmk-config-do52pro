@@ -141,7 +141,7 @@
       // activate the layer toggle. Prevents  activations of the mouse layer
       // when you accidentally touch the TrackPoint while typing
       layer-toggle-require-prior-idle-ms = <100>;
-    }
+    };
 
 
    /*
