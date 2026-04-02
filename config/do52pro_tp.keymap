@@ -1,5 +1,4 @@
-
-    #include <zephyr/dt-bindings/input/input-event-codes.h>
+#include <zephyr/dt-bindings/input/input-event-codes.h>
 
 #define BASE 0
 #define LOWER 1
@@ -126,11 +125,11 @@
 
         MouseTP_Keys_layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans              &trans    &trans    &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans              &trans    &trans    &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans              &mkp MB4  &mkp MB1  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans              &trans    &trans    &trans  &trans  &trans  &trans
-&trans  &trans                  &trans  &trans              &mkp LCLK &mkp RCLK                 &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans              &trans    &trans   &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans              &trans    &trans   &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans              &mkp MB4  &mkp MB5 &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans              &trans    &trans   &trans  &trans  &trans  &trans
+&trans  &trans                  &trans  &trans              &mkp LCLK &mkp RCLK               &trans  &trans
             >;
         };
 
