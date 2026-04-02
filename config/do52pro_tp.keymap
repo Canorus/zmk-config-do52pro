@@ -134,7 +134,7 @@
             >;
         };
 
-        MouseTP_Set_layer 
+        MouseTP_Set_layer {
             bindings = <
 &tog MOUSE_TP_SET              &trans                         &trans  &trans                  &mms MS_TP_SENSITIVITY_DECR  &mms MS_TP_SENSITIVITY_INCR                               &trans     &trans  &trans  &trans  &trans     &trans  
 &mms MS_RESET                  &trans                         &trans  &trans                  &trans                       &trans                                                    &trans     &trans  &trans  &trans  &trans     &trans
