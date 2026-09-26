@@ -95,11 +95,18 @@
         <&trackpoint_auto_layer MOUSE_TP 125>;
 
       scroll_layers {
-        layers = <LOWER MOUSE_TP_KEYS>;
+        layers = <LOWER>;
         input-processors =
           <&zip_xy_transform (INPUT_TRANSFORM_XY_SWAP | INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>,
           <&zip_xy_scaler 1 8>,
           <&zip_xy_to_scroll_mapper>;
+      };
+
+      sniper_mode {
+        layers = <MOUSE_TP_KEYS>;
+        input-processors =
+          <&zip_xy_transform (INPUT_TRANSFORM_XY_SWAP | INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>,
+          <&zip_xy_scaler 1 2>;
       };
     };
 

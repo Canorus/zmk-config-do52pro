@@ -125,6 +125,7 @@
         };
 
         MouseTP_Keys_layer {
+            display-name = "Sniper";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans              &trans    &trans   &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans              &trans    &trans   &trans  &trans  &trans  &trans
