@@ -96,7 +96,7 @@
         config_layer { // disregarded layer
             display-name = "Config";
             bindings = <
-&studio_unlock &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4  &bt BT_CLR_ALL      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4      &bootloader
+&bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4  &bt BT_CLR_ALL      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4      &bootloader
 &none          &none          &none          &none          &none          &none               &bt BT_PRV    &bt BT_NXT    &trans        &none         &none             &none
 &none          &none          &none          &none          &none          &none               &none         &none         &none         &none         &none             &none
 &none          &none          &none          &none          &none          &none               &none         &none         &none         &none         &none             &none
@@ -106,7 +106,7 @@
 
         MouseKeys_layer {
             bindings = <
-&bt BT_SEL 0          &bt BT_SEL 1          &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR                 &trans          &trans          &trans            &mms MS_TP_SENSITIVITY_INCR  &mms MS_TP_PTS_THRESHOLD_INCR  &mms MS_TP_VALUE6_INCR
+&bt BT_SEL 0          &bt BT_SEL 1          &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR                 &studio_unlock  &trans          &trans            &mms MS_TP_SENSITIVITY_INCR  &mms MS_TP_PTS_THRESHOLD_INCR  &mms MS_TP_VALUE6_INCR
 &bt BT_DISC 0         &bt BT_DISC 1         &bt BT_DISC 2 &bt BT_DISC 3 &bt BT_DISC 4 &trans                     &trans          &trans          &trans            &mms MS_TP_SENSITIVITY_DECR  &mms MS_TP_PTS_THRESHOLD_DECR  &mms MS_TP_VALUE6_DECR
 &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans        &trans        &trans        &trans                     &mkp MB4        &mkp MB5        &msc MOVE_Y(-10)  &msc MOVE_X(10)              &trans                         &trans  
 &trans                &trans                &kp C_PREV    &kp C_NEXT    &kp C_PAUSE   &trans                     &trans          &trans          &msc MOVE_Y(10)   &msc (MOVE_X(-10))           &trans                         &trans
